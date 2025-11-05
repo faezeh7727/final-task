@@ -19,8 +19,6 @@ html{
     font-size: 62.5%;
 }
 
-
-
  .container{
   max-width: 1140px;
   margin: 0 auto;
@@ -67,12 +65,17 @@ html{
 }
 
 .input-info{
-    width: 220px;
+    width: 240px;
     outline: 0;
     border: none;
     padding: 6px 16px 6px 16px;
     background-color: var(--input-color);
     border-radius: 16px;margin-bottom: 1.5rem;
+}
+@media(max-width:600px){
+    .input-info{
+    width: 100%;
+}
 }
 .delivery-address-title{
     color: #1A1814;
@@ -290,7 +293,6 @@ height:65px ;
     
 }
 
-
 @media(min-width:768px){
     .user-dashboard{
         grid-template-areas: "userinfo  purchaseinfo ";
@@ -328,7 +330,19 @@ height:65px ;
 .opstions1{
     margin-left: 0.5rem;
 }
-
+.input-info{
+    margin: 1.2rem;
+}
+ .label-info{
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+    }
+}
+@media(min-width:1024px){
+    .input-info{
+        width: 285px;
+    }
+   
 }
 
 /* حذف استایل پیش‌فرض رادیو */
@@ -349,7 +363,7 @@ input[type="radio"] {
 /* زمانی که رادیو انتخاب می‌شود */
 input[type="radio"]:checked {
   background-color: #CC312D; 
-  border-color: #CC312D; 
+  border-color: #CC312D;
 }
 
 /* افزودن دایره داخلی برای نشان دادن انتخاب */

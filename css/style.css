@@ -114,6 +114,7 @@ html{
     align-items: center;
     justify-content: space-between;
     margin:2rem;
+    white-space: nowrap;
     padding-bottom: 2rem;
     border-bottom: 1px solid var(--border-color);
 }
@@ -123,6 +124,7 @@ html{
     font-weight: 800;
     padding: 0.5rem 1rem;
     border-radius: 16px;
+    margin-right: 1rem;
 }
 
 .opstion-post{
@@ -162,6 +164,8 @@ html{
     background-color: var(--input-color);
     padding: 1rem 1rem;
     border-radius: 15px;
+    height: fit-content;
+    padding-bottom: 3rem;
 }
 .purchase-info-title{
     display: flex;
@@ -281,7 +285,8 @@ height:65px ;
     padding: 1rem 1rem;
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    
 }
 .payment-button button{
     width: 100%;

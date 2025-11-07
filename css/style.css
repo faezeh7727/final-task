@@ -31,7 +31,7 @@ html{
     
 }
 .user-info{
-    padding: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
 }
 .user-info-header{
     display:inline;
@@ -168,7 +168,7 @@ html{
 
 .purchase-info{
     background-color: var(--input-color);
-    padding: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
     border-radius: 15px;
     height: fit-content;
     padding-bottom: 3rem;

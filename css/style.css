@@ -74,7 +74,7 @@ html{
 }
 @media(max-width:767px){
     .input-info{
-    width: 100%;
+    width: 90%;
 }
 }
 .delivery-address-title{
@@ -122,9 +122,10 @@ html{
     background-color: #ffdad7;
     color: #CC312D;
     font-weight: 800;
-    padding: 0.5rem 1rem;
+    padding: 0.7rem 1rem;
     border-radius: 16px;
     margin-right: 1rem;
+    font-size: 1.3rem;
 }
 
 .opstion-post{
@@ -143,6 +144,10 @@ html{
     background-color: var(--input-color);
     padding: 1rem 1rem;
     border-radius: 16px;
+    /*وقتی اینجا بهش بوردر میدیم دیگه تکون نمیخوره*/
+    border: 1px solid #fff;
+    transition: all 0.4s ease;
+    
 }
 .opstions1:hover,
 .opstions2:hover {
@@ -154,10 +159,11 @@ html{
 }
 .radio-span span{
     margin-right: 1rem;
+    font-size: 1.4rem;
 }
 .price{
     margin-right: 1rem;
-    
+    font-size: 1.4rem;
 }
 
 .purchase-info{
@@ -170,6 +176,7 @@ html{
 .purchase-info-title{
     display: flex;
     align-items: center;
+    font-size: 1.4rem;
     margin: 1rem;
     padding-bottom: 1.5rem;
     border-bottom: 1px solid var(--border-color);
@@ -198,11 +205,15 @@ height:65px ;
     padding-top: 1.5rem;
     border-bottom: 1px solid var(--border-color);
 }
+.header-title{
+    margin-right: 0.5rem;
+}
 .product-header{
     display: flex;
     justify-content: space-between;
     margin-right: 1.5rem;
     white-space: nowrap;
+    font-size: 1.4rem;
 }
 
 .header-title span{
@@ -215,6 +226,9 @@ height:65px ;
 .product-footer{
     margin-right: 1rem;
     margin-top: 0.8rem;
+}
+.product-footer h4{
+    font-size: 1.2rem;
 }
 .Quantity-Controls{
     display: flex;
@@ -246,6 +260,10 @@ height:65px ;
 
 .payment-items-container{
     padding: 1.5rem 1.5rem;
+
+}
+.payment-items p,span,h4{
+    font-size: 1.3rem;
 }
 .payment-items{
     display: flex;
@@ -280,13 +298,14 @@ height:65px ;
 .gateway-text{
     margin-right: 0.7rem;
     white-space: nowrap;
+    font-size: 1.4rem;
 }
 .payment-button{
     padding: 1rem 1rem;
     display: flex;
     justify-content: center;
     margin-top: 1.5rem;
-    
+    font-size: 1.5rem;
 }
 .payment-button button{
     width: 100%;

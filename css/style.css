@@ -97,12 +97,18 @@ html{
 .choose-address i{
     margin-left: 0.5rem;
 }
+.text-area-container{
+    display: flex;
+    justify-content: center;
+}
 .custom-textarea{
     all: unset;
     width: 95%;
     height: 80px;
     border: 2px solid var(--border-color);
     padding: 1rem 1rem;
+    font-size: 1.5rem;
+    
 }
 .footer-title{
     display: inline;

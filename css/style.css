@@ -386,13 +386,13 @@ input[type="radio"] {
   transition: background-color 0.3s, border-color 0.3s;
 }
 
-/* زمانی که رادیو انتخاب می‌شود */
+
 input[type="radio"]:checked {
   background-color: #CC312D; 
   border-color: #CC312D;
 }
 
-/* افزودن دایره داخلی برای نشان دادن انتخاب */
+
 input[type="radio"]:checked::before {
   content: "";
   position: absolute;
